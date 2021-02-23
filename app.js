@@ -123,6 +123,4 @@ document.addEventListener('click', event => {
     localStorage.setItem('aFour', document.getElementById('four').value)
     localStorage.setItem('aFive', document.getElementById('five').value)
   }
-  
-
 })
