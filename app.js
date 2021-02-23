@@ -96,6 +96,16 @@ if (hours > 5) {
 
 // pulling value from local storage
 document.getElementById('seven').value = localStorage.getItem('aSeven')
+document.getElementById('eight').value = localStorage.getItem('aEight')
+document.getElementById('nine').value = localStorage.getItem('aNine')
+document.getElementById('ten').value = localStorage.getItem('aTen')
+document.getElementById('eleven').value = localStorage.getItem('aEleven')
+document.getElementById('twelve').value = localStorage.getItem('aTwelve')
+document.getElementById('one').value = localStorage.getItem('aOne')
+document.getElementById('two').value = localStorage.getItem('aTwo')
+document.getElementById('three').value = localStorage.getItem('aThree')
+document.getElementById('four').value = localStorage.getItem('aFour')
+document.getElementById('five').value = localStorage.getItem('aFive')
 
 // save value to local storage
 document.addEventListener('click', event => {
