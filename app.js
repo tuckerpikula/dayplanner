@@ -93,3 +93,21 @@ if (hours > 5) {
 } else if (hours === 5) {
   document.getElementById('five').classList.add('present')
 }
+
+// save value to local storage
+document.addEventListener('click', event => {
+  if (event.target.classList.contains('save')){
+    localStorage.setItem('aSeven', document.getElementById('seven').value)
+    localStorage.setItem('aEight', document.getElementById('eight').value)
+    localStorage.setItem('aNine', document.getElementById('nine').value)
+    localStorage.setItem('aTen', document.getElementById('ten').value)
+    localStorage.setItem('aEleven', document.getElementById('eleven').value)
+    localStorage.setItem('aTwelve', document.getElementById('twelve').value)
+    localStorage.setItem('aOne', document.getElementById('one').value)
+    localStorage.setItem('aTwo', document.getElementById('two').value)
+    localStorage.setItem('aThree', document.getElementById('three').value)
+    localStorage.setItem('aFour', document.getElementById('four').value)
+    localStorage.setItem('aFive', document.getElementById('five').value)
+  }
+  
+})
