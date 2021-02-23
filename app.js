@@ -94,8 +94,12 @@ if (hours > 5) {
   document.getElementById('five').classList.add('present')
 }
 
+// pulling value from local storage
+document.getElementById('seven').value = localStorage.getItem('aSeven')
+
 // save value to local storage
 document.addEventListener('click', event => {
+  
   if (event.target.classList.contains('save')){
     localStorage.setItem('aSeven', document.getElementById('seven').value)
     localStorage.setItem('aEight', document.getElementById('eight').value)
@@ -110,4 +114,5 @@ document.addEventListener('click', event => {
     localStorage.setItem('aFive', document.getElementById('five').value)
   }
   
+
 })
